@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Kukuuu ♡</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- =====================================
+     PAGE 1 - DARK PASSWORD PAGE
+===================================== -->
+
+<section class="page active dark password-page" id="p1">
+
+  <div class="password-container">
+
+    <div class="password-intro" id="passwordIntro">
+
+      <div class="password-dots">...</div>
+
+      <p>something is hiding in the dark...</p>
+
+    </div>
+
+
+    <div class="password-world hidden" id="passwordWorld">
+
+      <!-- CUTE SPOOKY CAT -->
+
+      <div class="cat-stage">
+
+        <div class="cat-shadow"></div>
+
+
+        <div class="spooky-cat">
+
+          <div class="cat-tail"></div>
+
+          <div class="cat-body"></div>
+
+
+          <div class="cat-head">
+
+            <div class="cat-ear left-ear"></div>
+
+            <div class="cat-ear right-ear"></div>
+
+            <div class="cat-eye left-eye"></div>
+
+            <div class="cat-eye right-eye"></div>
+
+            <div class="cat-nose"></div>
+
+            <div class="cat-mouth"></div>
+
+            <div class="cheek left-cheek"></div>
+
+            <div class="cheek right-cheek"></div>
+
+          </div>
+
+        </div>
+
+
+        <!-- CARTOON KNIFE EMOJI -->
+
+        <div class="cartoon-prop">🔪</div>
+
+      </div>
+
+
+      <div class="speech-bubble">
+
+        <strong>HEY YOUUU... 😼</strong>
+
+        <span>Answer my question first.</span>
+
+      </div>
+
+
+      <div class="password-card" id="passwordCard">
+
+        <p class="k">
+          THE VERY IMPORTANT QUESTION
+        </p>
+
+
+        <h1>
+          What's our marriage anniversary? 👀
+        </h1>
+
+
+        <input
+          id="passwordInput"
+          type="password"
+          inputmode="numeric"
+          autocomplete="off"
+          placeholder="type your answer..."
+        >
+
+
+        <button
+          id="submitPassword"
+          onclick="checkPassword()"
+        >
+          SUBMIT ✦
+        </button>
+
+
+        <p
+          class="feedback"
+          id="feedback"
+        ></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 2 - BIG OPENING LETTER
+===================================== -->
+
+<section class="page" id="p2">
+
+  <div class="paper">
+
+    <div class="k">
+      a little birthday surprise
+    </div>
+
+
+    <p>
+      You passed the extremely serious cat security system.
+      Congratulations. 😭🐈‍⬛
+    </p>
+
+
+    <div
+      class="big-letter"
+      onclick="go(3)"
+    >
+
+      <div class="letter-flap"></div>
+
+      <div class="letter-heart">
+        💗
+      </div>
+
+      <div class="letter-title">
+        FOR KUKUUU ♡
+      </div>
+
+    </div>
+
+
+    <div class="script">
+      A letter for you
+    </div>
+
+
+    <p class="note">
+      click the big letter
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 3 - WANNA SEE?
+===================================== -->
+
+<section class="page" id="p3">
+
+  <div class="paper">
+
+    <div class="k">
+      one very important question
+    </div>
+
+
+    <div class="script">
+      Wanna see<br>
+      what I made?
+    </div>
+
+
+    <div style="font-size:65px">
+      🧸🌷
+    </div>
+
+
+    <br>
+
+
+    <button
+      class="yes"
+      onclick="go(4)"
+    >
+      YES ♡
+    </button>
+
+
+    <button
+      class="soft"
+      id="no"
+      onclick="nope()"
+    >
+      NO
+    </button>
+
+
+    <p
+      class="note"
+      id="nomsg"
+    ></p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 4 - CALENDAR
+===================================== -->
+
+<section class="page" id="p4">
+
+  <div class="paper">
+
+    <div class="k">
+      mark the date
+    </div>
+
+
+    <div class="script">
+      Happy<br>
+      Birthday
+    </div>
+
+
+    <p>
+      There is a little present hidden here.
+    </p>
+
+
+    <div class="calendar">
+
+      <b>AUGUST 2026 ♡</b>
+
+
+      <div class="week">
+
+        <div>SUN</div>
+        <div>MON</div>
+        <div>TUE</div>
+        <div>WED</div>
+        <div>THU</div>
+        <div>FRI</div>
+        <div>SAT</div>
+
+      </div>
+
+
+      <div class="dates">
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+        <div>22</div>
+        <div>23</div>
+        <div>24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        <div>31</div>
+
+      </div>
+
+
+      <div
+        class="gift"
+        onclick="go(5)"
+      >
+        🎁
+      </div>
+
+
+      <div class="note">
+        click me
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 5 - MEMORIES
+===================================== -->
+
+<section class="page" id="p5">
+
+  <div class="paper">
+
+    <div class="k">
+      memory vault
+    </div>
+
+
+    <div class="script">
+      Our memories ♡
+    </div>
+
+
+    <div class="search">
+      🔎 &nbsp; moments of Kukuuu + me
+    </div>
+
+
+
+    <!-- PHOTO 1 -->
+
+    <div class="memories">
+
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo1.jpg"
+          alt="Memory 1"
+        >
+
+        <p>our silly moment 😭💗</p>
+
+      </div>
+
+
+
+      <!-- PHOTO 2 -->
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo2.jpg"
+          alt="Memory 2"
+        >
+
+        <p>my favourite person 🥺💗</p>
+
+      </div>
+
+
+
+      <!-- PHOTO 3 -->
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo3.jpg"
+          alt="Memory 3"
+        >
+
+        <p>look at us 😭✨</p>
+
+      </div>
+
+
+
+      <!-- PHOTO 4 -->
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo4.jpg"
+          alt="Memory 4"
+        >
+
+        <p>chaos together 👽💗</p>
+
+      </div>
+
+
+
+      <!-- PHOTO 5 -->
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo5.jpg"
+          alt="Memory 5"
+        >
+
+        <p>a memory I love 🥹💗</p>
+
+      </div>
+
+
+
+      <!-- PHOTO 6 -->
+
+      <div class="polaroid">
+
+        <img
+          src="images/photo6.jpg"
+          alt="Memory 6"
+        >
+
+        <p>more memories with you ♡</p>
+
+      </div>
+
+
+    </div>
+
+
+    <button
+      class="yes"
+      onclick="go(6)"
+    >
+      NEXT →
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 6 - FUNNY CAT
+===================================== -->
+
+<section class="page dark" id="p6">
+
+  <div class="paper">
+
+    <div class="k">
+      ⚠ unauthorized cat access ⚠
+    </div>
+
+
+    <div class="cat">
+      🤣🐈‍⬛
+    </div>
+
+
+    <div class="script">
+      HAHAHAHA—KUKUUU!
+    </div>
+
+
+    <div class="roastbox">
+
+      <div
+        class="roast"
+        id="r1"
+      >
+
+        “Bro thought the birthday surprise was going to be wholesome.” 💀
+
+      </div>
+
+
+      <button onclick="roast(1)">
+        ROAST ME AGAIN
+      </button>
+
+
+      <button
+        class="soft"
+        onclick="go(7)"
+      >
+        FINE, CONTINUE →
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 7 - BIG LETTER
+===================================== -->
+
+<section class="page" id="p7">
+
+  <div class="paper letter-page">
+
+    <div class="k">
+      wait... one more thing
+    </div>
+
+
+    <div
+      class="big-letter final-letter"
+      onclick="go(8)"
+    >
+
+      <div class="letter-flap"></div>
+
+
+      <div class="letter-heart">
+        💌
+      </div>
+
+
+      <div class="letter-title">
+        OPEN ME
+      </div>
+
+
+      <div class="tiny-writing">
+        from someone who made you this entire chaotic website 😭♡
+      </div>
+
+    </div>
+
+
+    <div class="script">
+      A very important letter
+    </div>
+
+
+    <p class="note">
+      click the letter 💌
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 8 - FINAL BIRTHDAY LETTER
+===================================== -->
+
+<section class="page dark" id="p8">
+
+  <div class="paper">
+
+    <div class="k">
+      the part I actually mean
+    </div>
+
+
+    <div class="script">
+      Happy Birthday, Kukuuu ♡
+    </div>
+
+
+    <div class="letter">
+
+      <p>
+        <b>Happy birthday, Kukuuu.</b>
+      </p>
+
+
+      <p>
+        I wanted to make you something you could actually
+        explore instead of sending one ordinary birthday text.
+      </p>
+
+
+      <p>
+        From <b>5 September 2024</b>,
+        to our first meeting on
+        <b>Mahashivratri — 26 February 2025</b>,
+        to <b>4 May 2025</b>…
+        those little dates became part of our story.
+      </p>
+
+
+      <p>
+        I hope this year gives you plenty of reasons to smile,
+        things to look forward to,
+        and lots of genuinely good memories.
+      </p>
+
+
+      <p>
+        And yes, the cat is absolutely going to keep
+        roasting you. 😭🐈‍⬛
+      </p>
+
+
+      <p>
+        <b>
+          Happy birthday, Kukuuu. ♡
+        </b>
+      </p>
+
+    </div>
+
+
+    <button
+      class="yes"
+      onclick="go(9)"
+    >
+      ONE LAST THING →
+    </button>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 9 - FINAL ROAST
+===================================== -->
+
+<section class="page dark" id="p9">
+
+  <div class="paper">
+
+    <div class="k">
+      FINAL CAT REVIEW
+    </div>
+
+
+    <div class="cat">
+      🐈‍⬛
+    </div>
+
+
+    <div class="script">
+      One last roast.
+    </div>
+
+
+    <div class="roastbox">
+
+      <div
+        class="roast"
+        id="r2"
+      >
+
+        “Approved. Mostly because nobody had the heart
+        to reject the birthday boy.” 😭
+
+      </div>
+
+
+      <button onclick="roast(2)">
+        AGAIN. I DARE YOU.
+      </button>
+
+
+      <button
+        class="soft"
+        onclick="go(10)"
+      >
+        RELEASE ME →
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 10 - THE END
+===================================== -->
+
+<section class="page dark" id="p10">
+
+  <div class="paper">
+
+    <div class="cat">
+      🎂🐈‍⬛
+    </div>
+
+
+    <div class="script">
+      Happy Birthday,<br>
+      Kukuuu.
+    </div>
+
+
+    <p>
+      The cats have officially released you.
+    </p>
+
+
+    <p>
+      <b>
+        Go have the best birthday ever. ♡
+      </b>
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================
+     JAVASCRIPT
+===================================== -->
+
+<script>
+
+
+/* -------------------------------------
+   PASSWORD CAT APPEARS
+------------------------------------- */
+
+setTimeout(function(){
+
+  document
+    .getElementById("passwordIntro")
+    .style.display = "none";
+
+
+  document
+    .getElementById("passwordWorld")
+    .classList.remove("hidden");
+
+
+}, 2200);
+
+
+
+/* -------------------------------------
+   CHECK PASSWORD
+------------------------------------- */
+
+function checkPassword(){
+
+  const answer =
+    document
+      .getElementById("passwordInput")
+      .value;
+
+
+  const feedback =
+    document
+      .getElementById("feedback");
+
+
+  const card =
+    document
+      .getElementById("passwordCard");
+
+
+  /* CORRECT ANSWER */
+
+  if(answer === "50924"){
+
+    feedback.textContent =
+      "HMMMM... okayyy. You remembered 😭💗";
+
+
+    setTimeout(function(){
+
+      go(2);
+
+    }, 900);
+
+  }
+
+
+  /* WRONG ANSWER */
+
+  else{
+
+    feedback.textContent =
+      "BLEHHH 😝 WRONGGGG! Try again, Kukuuu 😼";
+
+
+    card.classList.remove("shake");
+
+    void card.offsetWidth;
+
+    card.classList.add("shake");
+
+  }
+
+}
+
+
+
+/* ENTER KEY ALSO WORKS */
+
+document
+  .getElementById("passwordInput")
+  .addEventListener("keydown", function(event){
+
+    if(event.key === "Enter"){
+
+      checkPassword();
+
+    }
+
+  });
+
+
+
+/* -------------------------------------
+   CHANGE PAGE
+------------------------------------- */
+
+function go(n){
+
+  document
+    .querySelectorAll(".page")
+    .forEach(function(page){
+
+      page.classList.remove("active");
+
+    });
+
+
+  document
+    .getElementById("p" + n)
+    .classList.add("active");
+
+
+  scrollTo(0,0);
+
+}
+
+
+
+/* -------------------------------------
+   RUNNING NO BUTTON
+------------------------------------- */
+
+let noCount = 0;
+
+
+function nope(){
+
+  noCount++;
+
+
+  let button =
+    document
+      .getElementById("no");
+
+
+  button.style.transform =
+    `translate(
+      ${Math.random()*180-90}px,
+      ${Math.random()*100-50}px
+    )`;
+
+
+  document
+    .getElementById("nomsg")
+    .textContent =
+      noCount < 3
+      ? "Nice try 😭"
+      : "Kukuuu. The correct answer is YES. 💀";
+
+}
+
+
+
+/* -------------------------------------
+   CAT ROASTS
+------------------------------------- */
+
+const jokes = [
+
+  "“Bro thought the birthday surprise was going to be wholesome.” 💀",
+
+  "“HAHAHAHA. Birthday boy detected. Dignity not detected.” 😭",
+
+  "“Imagine getting cyberbullied by a cat on your own birthday.”",
+
+  "“Sir, the cat has reviewed your credentials. Questionable.” 🐈‍⬛",
+
+  "“Congratulations. You are older and still losing arguments to cats.”",
+
+  "“Kukuuu.exe has stopped responding. Please restart with cake.”",
+
+  "“Breaking news: local birthday boy gets roasted by HTML.”",
+
+  "“The cat would like everyone to know: skill issue.” 🐈‍⬛"
+
+];
+
+
+
+function roast(x){
+
+  let randomJoke =
+    jokes[
+      Math.floor(
+        Math.random()*jokes.length
+      )
+    ];
+
+
+  if(x === 1){
+
+    document
+      .getElementById("r1")
+      .textContent =
+      randomJoke;
+
+  }
+
+  else{
+
+    document
+      .getElementById("r2")
+      .textContent =
+      randomJoke;
+
+  }
+
+}
+
+
+</script>
+
+
+</body>
+</html>
